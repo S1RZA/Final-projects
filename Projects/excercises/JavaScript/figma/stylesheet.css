@@ -1,0 +1,237 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+main{
+    display: flex;
+    background-color: whitesmoke;
+}
+
+#aside-bar{
+    width: 15rem;
+    height: 100vh;
+    background-color: #F2EAE1;
+}
+
+#crud-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 20px;
+    line-height: 100%;
+    margin-top: 1rem;
+    margin-left: 1rem ;
+    text-shadow: 1px 2px 2px #E042F8;
+}
+
+
+#random-guy{
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+}
+
+#random-guy-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+#random-guy-text{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    display: flex;
+    justify-self: center;
+    margin-top: 1.5rem;
+}
+
+#role{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 14px;
+    color: #B600FE;
+    display: flex;
+    justify-self: center;
+    padding-top: 0.2rem;
+    margin-bottom: 5rem;
+}
+  
+
+#pages-container{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    list-style: none;
+}
+
+.page{
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    padding: 0.8rem;
+    margin-top: 1.5rem;
+    width: 10rem;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+.page:hover{
+    background-color: #6A00FE;    
+    color: white;
+    cursor: pointer;
+}
+
+#logout{
+    display: flex;
+    justify-self: center;
+    margin-top: 7rem;
+    font-weight: lighter;
+}
+
+
+#search-section{
+    background-color: #ffffff;
+    width: 168vh;
+    height: 4rem;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+#navbar{
+    margin-right: 8rem;
+}
+
+#search-input{
+    padding: 0.8rem;
+    border: 1px solid rgb(222, 222, 222); 
+    border-radius: 10px;
+}
+
+#search-input::placeholder {
+    font-size: 16px;
+    color: rgb(222, 222, 222);
+}
+
+#manage-students-options{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+    border-bottom: 1px solid rgb(222, 222, 222);
+}
+
+#manage-students{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    width: 95rem;
+}
+
+#add-student{
+    padding: 0.8rem;
+    width: 13rem;
+    border-radius: 5px;
+    border-style: none;
+    background-color: #6A00FE;
+    color: white;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+#students-data{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+    color:rgb(157, 157, 157) ;
+}
+
+#data-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+    width: 75rem;
+    height: 40rem;
+    margin-left: 10rem;
+    margin-top: 10rem;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 5px rgb(135, 3, 73);
+}
+
+#data-form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+}
+
+.input-box{
+    width: 65rem;
+    padding: 1.2rem;
+    border-radius: 10px;
+    border: transparent;
+    background-color: white;
+    box-shadow: 2px 2px 10px rgb(255, 115, 0);
+    font-size: 1.2rem;
+}
+
+.input-box:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #6A00FE; /* Optional: add a custom focus style */
+}
+
+.input-box::placeholder{
+    font-size: 1.2rem;
+    align-self: center;
+    text-align: left;
+    color: rgb(193, 193, 193);
+}
+
+#submit-container{
+    display: flex;
+    justify-content: center;
+}
+
+#submit-button{
+    padding: 1.5rem;
+    border-radius: 10px;
+    margin-top: 1rem;
+    border: transparent;
+    width: 40rem;
+    color: white;
+    font-size: 30px;
+    background: rgb(135, 3, 73);
+}
+
+#sumbit-button:hover{
+    background: linear-gradient(217deg, #ff0000, #fe0000);
+}
+
+#students-container{
+    width: 95rem;
+    margin-left: 1rem;
+    padding: 2rem;
+    background-color: beige;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px rgb(204, 0, 255);
+}
+
+.student ul{
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.trashcan{
+    width: 1.5rem;
+    height: 1.5rem;
+}

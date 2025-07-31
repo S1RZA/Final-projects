@@ -1,0 +1,24 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Headphones",
+      "price": 300
+    },
+    {
+      "id": "2",
+      "name": "Keyboard",
+      "price": 250
+    },
+    {
+      "id": "3",
+      "name": "144hz screen",
+      "price": 450
+    },
+    {
+      "id": "4",
+      "name": "PS5",
+      "price": 550
+    }
+  ]
+}

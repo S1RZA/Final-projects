@@ -1,0 +1,192 @@
+
+body{                                         /* here I added some style to the body, family font, background and proper heigth; */
+    font-family: "Roboto", sans-serif;          
+    background: linear-gradient(135deg,rgb(55, 0, 255),rgb(111, 0, 255));
+    height: 100%;      
+}
+
+header, main, footer {                /* I reseted the header, main and footer tags to avoid future problems */
+  margin: 0;
+  padding: 0;
+}
+
+*{
+    margin: 0%;                    /*Did the same with the whole page just in case */
+    padding: 0%;
+}
+
+
+ul{
+    list-style: none;                   /* Deleted the style of the items of a list */
+}
+
+a{
+    text-decoration: none; text-decoration: underline;         /*change the aspect of the anchors tags, deleting the blue highlighted style and decided to use some underline */
+    color: white;
+}
+
+a:hover {                             /* Added some style when the persons put the mouse over an anchor tag */
+  font-size: 25px;
+  color: #6b00f7;
+  text-decoration: none;
+}
+
+.header{                      /*Added style to the header, width and height, the background color I wanted, center it and a margin */
+    width: 100%;
+    height: 15rem;  
+    background-color: rgb(255, 0, 0);
+    justify-self: center;
+    display: flex;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(300deg,#c300ff, #000000);
+    margin-bottom: 4rem;
+}
+
+.introduction{              /* add style and a flex direction column to the introduction */
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    text-decoration-thickness: 2px solid black;
+}
+ 
+.anchors-description{             /* added style to the H2 description */
+    font-size: 1.2rem;
+    color: white;
+}
+
+.anchors li{       /* added style to the list items */
+    padding: 0.6rem;
+    font-size: 1.2rem;
+    color: white;
+}
+
+main{             /*here I created the main card, adding width, height, and background color, also center it in the page, added padding and margin to it */
+    width: 80%;
+    height: 30rem;
+    background-color: white;
+    justify-self: center;
+    display: flex;
+    border-radius: 25px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+    justify-content: space-around;
+    background: linear-gradient(300deg,#c300ff, #050300);
+    padding: 4rem;
+    margin-bottom: 3rem;
+    max-height: fit-content;
+}
+
+
+.passions{              /* here I added style to the passions container */
+    padding: 1.5rem;
+    color: rgb(255, 255, 255);
+    justify-items: center;
+}
+
+#passions-text{                     /* from here I added style to each part of the passions */
+    font-size: 1.5rem;
+}
+
+.passions-list{
+    color: white;
+    justify-content: center;
+    padding: 1.5rem;
+    text-align: justify;
+    font-size: 1.2rem;
+}
+
+#sports:hover{
+    padding: 2rem;
+    color: #73ff00;
+    text-decoration: underline;
+}
+
+#movies:hover{
+    padding: 2rem;
+    color: #00ffdd;
+    text-decoration: underline;
+}
+
+#gym:hover{
+    padding: 2rem;
+    color: #e45cff;
+    text-decoration: underline;
+}
+
+#videogames:hover{
+    padding: 2rem;
+    color: #fffb00;
+    text-decoration: underline;
+}
+
+#coding:hover{
+    padding: 2rem;
+    color: #ff0095;
+    text-decoration: underline;
+}
+                                   /* right here I create the style of the footer*/
+.footer{
+    width: 100%;
+    background: linear-gradient(300deg,#c300ff, #050300);
+    align-self: flex-end;
+}
+ 
+.footer-list{               /* Style to the items of the footer */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 4rem;
+}
+
+#instagram{                     /* style to each one of the items */
+    color: white;
+    align-self: center;
+}
+
+#facebook{
+    color: white;
+    align-self: center;
+}
+
+#email{
+    color: white;
+    align-self: center;
+}
+
+#mail{
+    text-decoration: underline;
+    color: aqua;
+}
+
+                               /*Responsivness */
+@media (max-width:1237px) {
+    main{
+        height: 70vh;
+    }
+
+    .introduction{
+        font-size: 1.5vh;
+        padding-left: 3rem;
+    }
+    .anchors li{
+        font-size: 1.7vh;
+    }
+}
+
+@media (max-width:768px){
+    main{
+        height: 100vh;
+    }
+}
+
+@media (max-width:694px){
+    main{
+        width: 50vh;
+        height: 150vh;
+        padding: 0%;
+    }
+    .footer-list{
+        padding-left: 12%;
+    }
+}

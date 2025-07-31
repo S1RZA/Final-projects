@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ToDo</title>
+    <link rel="stylesheet" href="./stylesheet.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1 id="title">Welcome to your agenda</h1>
+    <div>
+      <section id="agenda">
+        <h2 id="task-title">Enter your task below to add it to the agenda</h2>
+        <div id="add-task">
+          <input type="text" placeholder="Enter a new task" id="user-task" />
+          <button onclick="add_task()" id="button-task">Add your task</button>
+        </div>
+        <div id="task-left">
+          <h3 id="task-left-title">Here are your tasks left</h3>
+          <ul id="tasks-list"></ul>
+          <h3 id="unfinished-task">You have 0 tasks left</h3>
+        </div>
+      </section>
+    </div>
+  </body>
+  <script src="./app.js"></script>
+</html>

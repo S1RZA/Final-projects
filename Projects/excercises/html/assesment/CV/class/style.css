@@ -1,0 +1,161 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'PT Sans', sans-serif;
+    line-height: 2;
+}
+
+header{
+    background-image: url(https://blog-cafe-dh.netlify.app/img/banner.webp);
+    height: 39rem;
+    background-size: cover;
+    background-position: center center; 
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.bar{
+    width: 150rem;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0%;
+}
+
+.title{
+    color: white;
+    font-size: 3rem;
+    font-weight: 300;
+    text-align: justify;
+}
+
+.cafe{
+    font-weight: bold;
+}
+
+.nav{
+    align-content: center;
+}
+
+.nav-list{
+    list-style: none;
+    color: white;
+    display: flex;
+    gap: 2rem;
+    font-weight: 100;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.no-margin{
+    margin: 0%;
+}
+
+.header-text{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    padding-top: 10rem;
+    color: white;
+    text-align: center;
+    flex-direction: column;
+    
+}
+
+.h2-text{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    line-height: 1.2;
+}
+
+.blog{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin: 0% 17% 0% 17%;
+    column-gap: 2rem;
+    grid-column: 1;
+}
+
+#our-blog{
+    font-size: 2rem;
+    margin: 0.5rem;
+}
+
+img{
+    max-width: 100%;
+}
+
+
+.subtitle{
+    font-size: 2rem;
+    letter-spacing: 0.1px;
+    font-weight: bolder;
+}
+
+.entrance-content{
+    grid-column: 1;
+}
+
+.entrance{
+    margin-bottom: 0.8rem;
+    padding-bottom: 1.2rem; 
+    padding-top: 0.6rem;
+    border-bottom: 2px solid rgb(201, 201, 201);
+}
+
+#last-entrance{
+    border-bottom: none;
+}
+
+.read{
+    padding: 0.5rem 1.5rem;
+    font-style: solid;
+    font-weight: bolder;
+    font-size: 1rem;
+    background-color: black;
+    color: white;
+    flex-direction: column;
+    border-style: none;
+}
+
+.sidebar{
+
+    grid-column-start: 2;
+    grid-row-start: 1;
+}
+
+#sidebar-title{
+    font-size: 1.8rem;
+    text-align: left;
+    font-weight: bolder;
+    margin-top: 0.5rem;
+}
+
+#sidebar-subtitle{
+    font-size: 1.6rem;
+    text-align: left;
+    font-weight: bolder;
+}
+
+.info{
+    list-style: none;
+}
+
+.margin-item{
+    margin-bottom: 1.5rem;
+}
+
+.bold{
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+.sidebar-button{
+    color: white;
+    border: none;
+    background-color: #784d3c;
+    padding: 0.8rem 1.1rem;
+}
